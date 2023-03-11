@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0765750F29BCE48F00F613BC /* VideoSharingTestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0765750E29BCE48F00F613BC /* VideoSharingTestApp.swift */; };
+		0765751129BCE48F00F613BC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0765751029BCE48F00F613BC /* ContentView.swift */; };
+		0765751329BCE49200F613BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0765751229BCE49200F613BC /* Assets.xcassets */; };
+		0765751629BCE49200F613BC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0765751529BCE49200F613BC /* Preview Assets.xcassets */; };
+		0765752029BCE49200F613BC /* VideoSharingTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0765751F29BCE49200F613BC /* VideoSharingTestTests.swift */; };
+		0765752A29BCE49200F613BC /* VideoSharingTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0765752929BCE49200F613BC /* VideoSharingTestUITests.swift */; };
+		0765752C29BCE49200F613BC /* VideoSharingTestUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0765752B29BCE49200F613BC /* VideoSharingTestUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0765751C29BCE49200F613BC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0765750329BCE48F00F613BC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0765750A29BCE48F00F613BC;
+			remoteInfo = VideoSharingTest;
+		};
+		0765752629BCE49200F613BC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0765750329BCE48F00F613BC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0765750A29BCE48F00F613BC;
+			remoteInfo = VideoSharingTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0765750B29BCE48F00F613BC /* VideoSharingTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VideoSharingTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0765750E29BCE48F00F613BC /* VideoSharingTestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoSharingTestApp.swift; sourceTree = "<group>"; };
+		0765751029BCE48F00F613BC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		0765751229BCE49200F613BC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0765751529BCE49200F613BC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0765751B29BCE49200F613BC /* VideoSharingTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VideoSharingTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0765751F29BCE49200F613BC /* VideoSharingTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoSharingTestTests.swift; sourceTree = "<group>"; };
+		0765752529BCE49200F613BC /* VideoSharingTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VideoSharingTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0765752929BCE49200F613BC /* VideoSharingTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoSharingTestUITests.swift; sourceTree = "<group>"; };
+		0765752B29BCE49200F613BC /* VideoSharingTestUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoSharingTestUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		0765753829BCE9BC00F613BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0765750829BCE48F00F613BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0765751829BCE49200F613BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0765752229BCE49200F613BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0765750229BCE48F00F613BC = {
+			isa = PBXGroup;
+			children = (
+				0765750D29BCE48F00F613BC /* VideoSharingTest */,
+				0765751E29BCE49200F613BC /* VideoSharingTestTests */,
+				0765752829BCE49200F613BC /* VideoSharingTestUITests */,
+				0765750C29BCE48F00F613BC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0765750C29BCE48F00F613BC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0765750B29BCE48F00F613BC /* VideoSharingTest.app */,
+				0765751B29BCE49200F613BC /* VideoSharingTestTests.xctest */,
+				0765752529BCE49200F613BC /* VideoSharingTestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0765750D29BCE48F00F613BC /* VideoSharingTest */ = {
+			isa = PBXGroup;
+			children = (
+				0765753829BCE9BC00F613BC /* Info.plist */,
+				0765750E29BCE48F00F613BC /* VideoSharingTestApp.swift */,
+				0765751029BCE48F00F613BC /* ContentView.swift */,
+				0765751229BCE49200F613BC /* Assets.xcassets */,
+				0765751429BCE49200F613BC /* Preview Content */,
+			);
+			path = VideoSharingTest;
+			sourceTree = "<group>";
+		};
+		0765751429BCE49200F613BC /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				0765751529BCE49200F613BC /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0765751E29BCE49200F613BC /* VideoSharingTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				0765751F29BCE49200F613BC /* VideoSharingTestTests.swift */,
+			);
+			path = VideoSharingTestTests;
+			sourceTree = "<group>";
+		};
+		0765752829BCE49200F613BC /* VideoSharingTestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0765752929BCE49200F613BC /* VideoSharingTestUITests.swift */,
+				0765752B29BCE49200F613BC /* VideoSharingTestUITestsLaunchTests.swift */,
+			);
+			path = VideoSharingTestUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0765750A29BCE48F00F613BC /* VideoSharingTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0765752F29BCE49200F613BC /* Build configuration list for PBXNativeTarget "VideoSharingTest" */;
+			buildPhases = (
+				0765750729BCE48F00F613BC /* Sources */,
+				0765750829BCE48F00F613BC /* Frameworks */,
+				0765750929BCE48F00F613BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VideoSharingTest;
+			productName = VideoSharingTest;
+			productReference = 0765750B29BCE48F00F613BC /* VideoSharingTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0765751A29BCE49200F613BC /* VideoSharingTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0765753229BCE49200F613BC /* Build configuration list for PBXNativeTarget "VideoSharingTestTests" */;
+			buildPhases = (
+				0765751729BCE49200F613BC /* Sources */,
+				0765751829BCE49200F613BC /* Frameworks */,
+				0765751929BCE49200F613BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0765751D29BCE49200F613BC /* PBXTargetDependency */,
+			);
+			name = VideoSharingTestTests;
+			productName = VideoSharingTestTests;
+			productReference = 0765751B29BCE49200F613BC /* VideoSharingTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0765752429BCE49200F613BC /* VideoSharingTestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0765753529BCE49200F613BC /* Build configuration list for PBXNativeTarget "VideoSharingTestUITests" */;
+			buildPhases = (
+				0765752129BCE49200F613BC /* Sources */,
+				0765752229BCE49200F613BC /* Frameworks */,
+				0765752329BCE49200F613BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0765752729BCE49200F613BC /* PBXTargetDependency */,
+			);
+			name = VideoSharingTestUITests;
+			productName = VideoSharingTestUITests;
+			productReference = 0765752529BCE49200F613BC /* VideoSharingTestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0765750329BCE48F00F613BC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					0765750A29BCE48F00F613BC = {
+						CreatedOnToolsVersion = 14.0;
+					};
+					0765751A29BCE49200F613BC = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = 0765750A29BCE48F00F613BC;
+					};
+					0765752429BCE49200F613BC = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = 0765750A29BCE48F00F613BC;
+					};
+				};
+			};
+			buildConfigurationList = 0765750629BCE48F00F613BC /* Build configuration list for PBXProject "VideoSharingTest" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0765750229BCE48F00F613BC;
+			productRefGroup = 0765750C29BCE48F00F613BC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0765750A29BCE48F00F613BC /* VideoSharingTest */,
+				0765751A29BCE49200F613BC /* VideoSharingTestTests */,
+				0765752429BCE49200F613BC /* VideoSharingTestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0765750929BCE48F00F613BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0765751629BCE49200F613BC /* Preview Assets.xcassets in Resources */,
+				0765751329BCE49200F613BC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0765751929BCE49200F613BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0765752329BCE49200F613BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0765750729BCE48F00F613BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0765751129BCE48F00F613BC /* ContentView.swift in Sources */,
+				0765750F29BCE48F00F613BC /* VideoSharingTestApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0765751729BCE49200F613BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0765752029BCE49200F613BC /* VideoSharingTestTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0765752129BCE49200F613BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0765752A29BCE49200F613BC /* VideoSharingTestUITests.swift in Sources */,
+				0765752C29BCE49200F613BC /* VideoSharingTestUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0765751D29BCE49200F613BC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0765750A29BCE48F00F613BC /* VideoSharingTest */;
+			targetProxy = 0765751C29BCE49200F613BC /* PBXContainerItemProxy */;
+		};
+		0765752729BCE49200F613BC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0765750A29BCE48F00F613BC /* VideoSharingTest */;
+			targetProxy = 0765752629BCE49200F613BC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0765752D29BCE49200F613BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0765752E29BCE49200F613BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0765753029BCE49200F613BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"VideoSharingTest/Preview Content\"";
+				DEVELOPMENT_TEAM = 538V75M248;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = VideoSharingTest/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ourtrees.VideoSharingTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0765753129BCE49200F613BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"VideoSharingTest/Preview Content\"";
+				DEVELOPMENT_TEAM = 538V75M248;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = VideoSharingTest/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ourtrees.VideoSharingTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0765753329BCE49200F613BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ourtrees.VideoSharingTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VideoSharingTest.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/VideoSharingTest";
+			};
+			name = Debug;
+		};
+		0765753429BCE49200F613BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ourtrees.VideoSharingTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VideoSharingTest.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/VideoSharingTest";
+			};
+			name = Release;
+		};
+		0765753629BCE49200F613BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ourtrees.VideoSharingTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = VideoSharingTest;
+			};
+			name = Debug;
+		};
+		0765753729BCE49200F613BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ourtrees.VideoSharingTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = VideoSharingTest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0765750629BCE48F00F613BC /* Build configuration list for PBXProject "VideoSharingTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0765752D29BCE49200F613BC /* Debug */,
+				0765752E29BCE49200F613BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0765752F29BCE49200F613BC /* Build configuration list for PBXNativeTarget "VideoSharingTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0765753029BCE49200F613BC /* Debug */,
+				0765753129BCE49200F613BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0765753229BCE49200F613BC /* Build configuration list for PBXNativeTarget "VideoSharingTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0765753329BCE49200F613BC /* Debug */,
+				0765753429BCE49200F613BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0765753529BCE49200F613BC /* Build configuration list for PBXNativeTarget "VideoSharingTestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0765753629BCE49200F613BC /* Debug */,
+				0765753729BCE49200F613BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0765750329BCE48F00F613BC /* Project object */;
+}
